@@ -1,16 +1,106 @@
-# React + Vite
+# Varshini Yadav Nasaram – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive multi-page portfolio website built using React.js to showcase Artificial Intelligence projects, research experience, certifications, leadership roles, and technical expertise.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+This portfolio demonstrates frontend architecture, modular component design, animated UI transitions, and structured presentation of AI/ML work. The application is designed with scalability, maintainability, and professional UI standards in mind.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Vite
+
+---
+
+## Key Features
+
+- Multi-page routing with React Router
+- Smooth animated transitions using Framer Motion
+- Modular and reusable component structure
+- Structured project showcase with measurable impact
+- Dedicated sections:
+  - Home
+  - About
+  - Skills
+  - Projects
+  - Experience
+  - Achievements
+  - Certifications
+  - Contact
+- Fully responsive layout
+- Clean and professional UI design
+
+---
+
+## Project Structure
+
+
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ └── AnimatedPage.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── About.jsx
+│ ├── Skills.jsx
+│ ├── Projects.jsx
+│ ├── Experience.jsx
+│ ├── Achievements.jsx
+│ ├── Certifications.jsx
+│ └── Contact.jsx
+│
+└── App.jsx
+
+
+---
+
+## Installation & Setup
+
+Clone the repository:
+
+
+git clone https://github.com/varshiniii2005/varshini-portfolio.git
+
+cd varshini-portfolio
+
+
+Install dependencies:
+
+
+npm install
+
+
+Run the development server:
+
+
+npm run dev
+
+
+Build for production:
+
+
+npm run build
+
+
+---
+
+## Contact
+
+Email: varshini.nasaram@example.com  
+LinkedIn: https://linkedin.com/in/varshininasaram 
+GitHub: https://github.com/varshiniii2005
+
+---
+
+© 2025 Varshini Yadav Nasaram. All rights reserved.
