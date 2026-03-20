@@ -1,0 +1,43 @@
+.home-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  color: #38bdf8;
+}
+
+.hero-tagline {
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: scale(1.1);
+}

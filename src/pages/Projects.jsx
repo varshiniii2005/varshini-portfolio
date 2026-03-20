@@ -34,6 +34,24 @@ export default function Projects() {
           details="Tracked 15+ procurement KPIs using Power BI dashboards. Reduced procurement cycle time by 25% through bottleneck analysis and improved vendor SLA compliance by 30%."
         />
 
+        <ProjectCard
+          title="AI-Based OCR & Image Classification System"
+          summary="Deep learning OCR system using CNN & ResNet for image classification."
+          details="Developed an OCR pipeline leveraging CNN and ResNet architectures for image classification and text extraction tasks. Achieved high classification performance with detailed evaluation metrics including confusion matrices and classification reports. Optimized preprocessing and model performance for improved accuracy and scalability."
+        />
+
+        <ProjectCard
+          title="Intelligent Drone Swarm using Graph Neural Networks"
+          summary="Swarm intelligence powered by GAE & VGAE models."
+          details="Designed a drone swarm coordination system using Graph Autoencoders (GAE) and Variational Graph Autoencoders (VGAE). Modeled drone interactions as graph structures to enable decentralized intelligence and efficient communication. Applicable to real-world scenarios such as disaster response, surveillance, and autonomous delivery systems."
+        />
+
+        <ProjectCard
+          title="Multi-Horizon Stock Price Forecasting System"
+          summary="Deep learning model predicting short-term and long-term stock trends."
+          details="Built a multi-horizon forecasting system to predict stock prices across different timeframes. Implemented deep learning and time-series models to capture market patterns and trends. Generated analytical outputs and visualizations for better financial decision-making and trend analysis."
+        />
+
       </div>
     </AnimatedPage>
   );

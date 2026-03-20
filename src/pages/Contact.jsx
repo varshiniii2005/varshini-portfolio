@@ -21,22 +21,22 @@ export default function Contact() {
         <p className="flex items-center gap-3">
           <FaGithub />
           <a
-            href="https://github.com/varshinii2005"
+            href="https://github.com/varshiniii2005"
             className="text-blue-400"
             target="_blank"
           >
-            github.com/varshinii2005
+            github.com/varshiniii2005
           </a>
         </p>
 
         <p className="flex items-center gap-3">
           <FaLinkedin />
           <a
-            href="https://www.linkedin.com/in/varshininasaram"
+            href="https://www.linkedin.com/in/varshini-yadav-nasaram"
             className="text-blue-400"
             target="_blank"
           >
-            linkedin.com/in/varshininasaram
+            linkedin.com/in/varshini-yadav-nasaram
           </a>
         </p>
 

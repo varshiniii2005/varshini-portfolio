@@ -1,33 +1,58 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function ProjectCard({ title, summary, details }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <motion.div
-      whileHover={{ scale: 1.02 }}
-      className="bg-gray-900 p-6 rounded-xl border border-gray-700"
-    >
-      <h3 className="text-2xl font-semibold">{title}</h3>
-      <p className="text-gray-400 mt-2">{summary}</p>
-
-      <button
-        onClick={() => setOpen(!open)}
-        className="mt-4 text-purple-400"
+    <>
+      {/* CARD */}
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        onClick={() => setOpen(true)}
+        style={styles.card}
       >
-        {open ? "Show Less ▲" : "Show More ▼"}
-      </button>
+        <h2>{title}</h2>
+        <p style={{ color: "#38bdf8" }}>{summary}</p>
+      </motion.div>
 
+      {/* MODAL */}
       {open && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          className="mt-4 text-gray-300"
-        >
-          {details}
-        </motion.div>
+        <div style={styles.modal}>
+          <div style={styles.modalContent}>
+            <h2>{title}</h2>
+            <p>{details}</p>
+
+            <button onClick={() => setOpen(false)}>Close</button>
+          </div>
+        </div>
       )}
-    </motion.div>
+    </>
   );
 }
+
+const styles = {
+  card: {
+    background: "#020617",
+    padding: "20px",
+    borderRadius: "15px",
+    cursor: "pointer",
+  },
+  modal: {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    background: "rgba(0,0,0,0.8)",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalContent: {
+    background: "#020617",
+    padding: "30px",
+    borderRadius: "15px",
+    width: "60%",
+  },
+};

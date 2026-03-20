@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="relative">
         <button
           onClick={() => setOpen(!open)}
-          className="bg-gray-800 px-4 py-2 rounded-lg"
+          className="bg-gray-900 text-white"
         >
           Sections ▾
         </button>
