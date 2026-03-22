@@ -10,9 +10,7 @@ export default function Contact() {
 
       <div className="space-y-6 text-gray-300 text-lg">
 
-        <p className="flex items-center gap-3">
-          <FaPhone /> +91 9642661122
-        </p>
+       
 
         <p className="flex items-center gap-3">
           <FaEnvelope /> varshini.nasaram_2027@woxsen.edu.in
